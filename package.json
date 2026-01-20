@@ -1,5 +1,15 @@
 {
+  "name": "nginx-demo",
+  "version": "1.0.0",
+  "description": "A node js application serving a static HTML file",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Sobhie Saad",
+  "license": "MIT",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "path": "^0.12.7"
   }
 }
