@@ -11,3 +11,6 @@
 ##
 ### Start docker containers from the image:
 #### docker-compose up --build -d
+
+### Moving to Secruity connection we need SSL certificates with openssl
+#### openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout nginx-selfsigned.key -out nginx-selfsigned.crt
